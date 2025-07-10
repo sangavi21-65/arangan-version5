@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shell and Tube Heat Exchanger with a spiral Baffle</title>
+<link href="../index.css" rel="stylesheet" type="text/css">
+</head>
+<header class="mainheader-bar">
+	<div class="mainheader-search-bar">
+	   <div class="search-bar">
+		  <input type="text" value placeholder="SEARCH" autocomplete="off">
+	   </div>
+	   <div class="mainheader-contact"> 
+		  <a>anand@sriarangan.com</a>
+		  <a>CHENNAI | +91 9940462580</a>
+		  <a>QATAR | +974 40393346</a>
+          <a>MUSCAT | +968 78843375</a>
+		</div>
+	</div>
+  <div class="second-heading">
+	<div class="logo-image">
+	  <a href="../index.html">
+		<img src="logo.png" alt="Sri Arangan Logo" id="logopic" />
+	  </a>
+	</div>
+	  <div class="htitle">
+		  <h1><a href="../index.html">SRIARANGAN CREATIONS</a></h1>
+	  </div>
+	  
+  <div id="nav-links" class="nav-links">
+	 <a href="about us.html">HOME </a>
+	 <a href="services.html">SERVICES</a>
+	 <a href="blogs.html">BLOG</a>
+	 <a href="projects.html">PROJECTS</a>
+	 <a href="contact.html">CONTACT US</a>
+  </div>
+  </div>		
+</header>
+<body>	
+		<div class="common">
+			<h2>Shell and Tube Heat Exchanger with a spiral Baffle</h2>
+			<button id="workbutton1"><a href="../contact.html">WORK WITH US</a></button>
+		</div>
+	<div class="extra-page">
+		<div class="shell-cnt-img">
+			<div class="cfd-img">
+				<img src="shell1.jpeg" >
+			</div>		
+		</div>
+		<div class="cfd-para">
+			<h2>Shell and Tube Heat Exchanger with a spiral Baffle</h2>
+			<p>The problem simulates heat transfer inside a shell and tube heat exchanger with a spiral buffer.</p>
+			<p>Click on Add To Cart and obtain the Geometry file, Mesh file, and a Comprehensive <b>ANSYS Fluent Training Video</b>.</p>
+			<p>To Order Your Project or benefit from a CFD consultation, contact our experts via email (www.sriarangan.com), online support tab, or WhatsApp at +91 9940462580.</p>
+			<p>There are some Free Products to check our service quality.
+			If you want the training video in another language instead of English, ask it via www.sriarangan.com after you buy the product.</p>
+		</div>		
+	</div>
+		<div class="cfd-para1">
+			   <h1>Description</h1>
+			<h2>Shell and Tube Heat Exchanger with a spiral Baffle, ANSYS Fluent CFD Simulation Training</h2>
+			<p>The problem simulates heat transfer inside a shell and tube heat exchanger with a spiral buffer by ANSYS Fluent software. The heat exchanger is a device for transferring heat between two hot and cold fluids. The industry’s two most common heat exchangers are plate heat exchangers and shell and tube heat exchangers. The shell and tube heat exchangers consist of a cylindrical outer shell and inner tubes inside.</p>
+			<p>One of the cold or hot fluids passes through the space between the tubes and the outer shell, and the other fluid passes through the inner space of the inner tubes in the same direction or vice versa. One way to enhance the heat transfer process between two fluids is to use buffers inside the shell’s fluid flow path.</p>
+			<p>The use of buffers in the flow of fluid causes turbulence in the fluid flow through the shell and further contact of the fluid with the tubes, and as a result, heat transfer is enhanced; But on the other hand, it causes a pressure drop in the fluid as well as the deposition of fluid in the shell. Therefore, the use of helical baffle reduces the pressure drop and sedimentation inside the heat exchanger in addition to strengthening the heat transfer between the two fluids.</p>
+			<p>In the current model, the heat exchanger consists of seven internal tubes and a spiral buffer inside the shell. The flow of water with a flow rate of 0.5 kg.s-1 and a temperature of 300 K enters the shell from the shell inlet and is exchanged with tubes with a constant temperature of 450 K.</p>
+			<p>In fact, it is assumed that the cold flow passes through the shell and the hot flow through the inner tubes; But for simplicity, the model assumes that the temperature of the hot fluid flowing through the tubes during the process has a constant temperature value, which is assumed to be 450 K.</p>
+			<h2>Shell and Tube HEX Geometry & Mesh</h2>
+			<p>The present 3-D model is designed using Design Modeler software. The model is a shell and tube heat exchanger that includes an external shell and seven internal tubes inside. The diameter of the shell is 3 cm and its length is 60 cm. Inside the interior and between the shell and the tube, a spiral buffer is used. The following figure shows a view of the geometry.</p>
+			<img src="shell1.jpeg">
+			<p>The meshing of the model has been done using ANSYS Meshing software and the mesh type is unstructured. The element number is 1629340 and the accuracy of the cells in the areas adjacent to the wall of the tubes is higher. The following figure shows a view of the mesh.</p>
+			<img src="shell1.jpeg">
+			<h2>CFD Simulation</h2>
+			<ul>
+				<p>To simulate the present problem, several assumptions are considered:</p>
+				<li>The simulation is steady-state.</li>
+				<li>The solver is pressure-based.</li>
+				<li>The effect of the gravity on the fluid flow is 9.81 m.s-2 along the y-axis downward.</li>
+			</ul>
+			<p>A summary of the steps for defining the problem and its solution is given in the following table:</p>
+		</div>
+	<div class="cfd-para1">
+		<h3>Models (shell and tube)</h3>
+	</div>
+		<div class="grid-cnt">
+			<p>k-epsilon</p>
+			<p>Viscous model</p>
+		</div>
+		<div class="grid-cnt"> 
+			<p>realizable</p>
+			<p>k-epsilon model</p>
+		</div>
+		<div class="grid-cnt">
+			<p>standard wall function</p>
+			<p>near-wall treatment</p>
+		</div>
+		<div class="grid-cnt">
+			<p>on</p>
+			<p></p>
+			<p>Energy</p>
+		</div>
+	<div class="cfd-para1">	
+		<h3>Boundary conditions (shell and tube)</h3>
+	</div>
+	<div class="grid-cnt">
+		<p>mass flow inlet</p>
+		<p>Inlet</p>
+	</div>
+	<div class="grid-cnt">
+		<p>0.5 kg.s<sup>-1</sup></p>
+		<p>mass flow rate</p>
+	</div>
+	<div class="grid-cnt">
+		<p>300 K</p>
+		<p>temperature</p>
+	</div>
+	<div class="grid-cnt">
+		<p>Pressure outlet</p>
+		<p>Outlet</p>
+	</div>
+	<div class="grid-cnt">
+		<p>0 Pa</p>
+		<p>gauge pressure</p>
+	</div>
+	<div class="grid-cnt">
+		<p>wall</p>
+		<p></p>
+		<p>Baffle’s wall</p>
+	</div>
+	<div class="grid-cnt">
+		<p>stationary wall</p>
+		<p>wall motion</p>
+		<p><b>(shell and tube)</b></p>
+	</div>
+	<div class="grid-cnt">
+		<p>coupled</p>
+		<p>thermal condition</p>
+		<p></p>
+	</div>
+	<div class="grid-cnt">
+		<p></p>
+		<p></p>
+		<p>Outer wall for shell</p>
+	</div>
+	<div class="grid-cnt">
+		<p>stationary wall</p>
+		<p>wall motion</p>
+	</div>
+	<div class="grid-cnt">
+		<p>0 W.m<sup>-2</sup></p>
+		<p>heat flux</p>
+	</div>
+	<div class="grid-cnt">
+		<p>wall</p>
+		<p></p>
+		<p>Inner walls for tubes</p>
+	</div>
+	<div class="grid-cnt">
+		<p>stationary wall</p>
+		<p>wall motion</p>
+	</div>
+	<div class="grid-cnt">
+		<p>450 K</p>
+		<p>temperature</p>
+	</div>
+	<div class="cfd-para1">
+		<h3>Solution Methods (shell and tube)</h3>
+	</div>
+	<div class="grid-cnt">
+		<p>Simple</p>
+		<p></p>
+		<p>Pressure-velocity coupling</p>
+	</div>
+	<div class="grid-cnt">
+		<p>Standard</p>
+		<p>pressure</p>
+		<p>Spatial discretization</p>
+	</div>
+	<div class="grid-cnt">
+		<p>first-order upwind</p>
+		<p>momentum</p>
+	</div>
+	<div class="grid-cnt">
+		<p>first-order upwind</p>
+		<p>turbulent kinetic energy</p>
+	</div>
+	<div class="grid-cnt"> 
+		<p>first-order upwind</p>
+		<p>turbulent dissipation rate</p>
+	</div>
+	<div class="grid-cnt">
+		<p>first-order upwind</p>
+		<p>energy</p>
+	</div>
+	<div class="cfd-para1">
+		<h3>Initialization (shell and tube)</h3>
+	</div>
+	<div class="grid-cnt">
+		<p>Standard</p>
+		<p>Initialization method</p>
+	</div>
+	<div class="grid-cnt">
+		<p>0 Pa</p>
+		<p>gauge pressure</p>
+	</div>
+	<div class="grid-cnt">
+		<p>0 m.s<b>-1</b></p>
+		<p>x-velocity, z-velocity</p>
+	</div>
+	<div class="grid-cnt">
+		<p>0.7106586 m.s<b>-1</b></p>
+		<p>y-velocity</p>
+	</div>
+	<div class="grid-cnt">
+		<p>300 K</p>
+		<p>temperature</p>
+	</div>
+	<div class="cfd-para1">
+		<h3>Shell and Tube Results</h3>
+		<p>At the end of the solution process, two-dimensional and three-dimensional contours of pressure, temperature, and velocity, as well as two-dimensional and three-dimensional velocity vectors and path lines, are obtained.</p>
+	</div>
+<footer>
+  <div class="mainfooter">
+		<div class="get">
+				<h4>WANT TO KNOW IF WE CAN HELP WITH YOUR PROJECTS? CONTACT US TODAY</h4>
+			<div class="getintouch">   
+					<h5><a href="contact.html">GET IN TOUCH</a></h5>
+			</div>
+		</div> 									  
+			<div class="footer1">
+					<a><img src="linked in.png" width="162" height="159" alt="Company Logo" id="cmpnylogopic"/></a>
+			</div> 
+			<div class="footer2">
+				<div class="footer-address">
+				  <p>&copy; 2024 SRIARANGAN CREATIONS PVT LTD,<br>
+				  No 5/181, Periyar St, Medavakkam, Chennai,<br>
+				  Tamil Nadu 600100, India.</p>
+				</div>
+				<div class="footer-links">
+				  <a class="footer3" href="#">Privacy Policy</a>
+				  <a class="footer3" href="#">Terms & Conditions</a>
+				  <a class="footer3" href="contact.html">Contact Us</a>
+				</div>
+      </div>
+	</div>
+</footer>	
+</body>
+</html>
